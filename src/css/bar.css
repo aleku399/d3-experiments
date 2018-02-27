@@ -1,0 +1,36 @@
+#dash {
+    display: flex;
+    flex-direction: row;
+}
+#bar {
+    height: 300px;
+    width: 300px;
+}
+.scatter {
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+.rect {
+    fill: brown;
+}
+h1 {
+    text-align: center;
+}
+.scale {
+    border: 1px solid gold;
+    padding: 30px;
+}
+
+.axis path,
+.axis line {
+    stroke: teal;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: Optima, Futura, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    fill: teal;
+}
