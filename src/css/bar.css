@@ -6,6 +6,9 @@
     height: 300px;
     width: 300px;
 }
+.bar {
+    margin: 20px;
+}
 .scatter {
     height: 250px;
     width: 250px;
@@ -26,6 +29,7 @@ h1 {
 .axis line {
     stroke: teal;
     shape-rendering: crispEdges;
+    display: inline;
 }
 
 .axis text {
