@@ -2,29 +2,23 @@
     display: flex;
     flex-direction: row;
 }
+h1,text {
+    text-align: center;
+}
 #bar {
-    height: 300px;
-    width: 300px;
+    padding-left: 20px;
+    border: 1px solid green;
+    margin: 20px;
 }
 .bar {
     margin: 20px;
 }
 .scatter {
+    border: 1px solid green;
     height: 250px;
     width: 250px;
     padding: 40px;
 }
-.rect {
-    fill: brown;
-}
-h1 {
-    text-align: center;
-}
-.scale {
-    border: 1px solid gold;
-    padding: 30px;
-}
-
 .axis path,
 .axis line {
     stroke: teal;
@@ -37,4 +31,13 @@ h1 {
     font-weight: bold;
     font-size: 14px;
     fill: teal;
+}
+.container {
+    border: 1px solid green;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding: 1px;
+}
+.k {
+    margin-right: 2px;
 }
