@@ -2,6 +2,8 @@
     "compilerOptions": {
       "module": "commonjs",
       "target": "es6",
+      "declaration": true,
+      "moduleResolution": "node",
       "jsx": "react",
       "sourceMap": false,
       "strict": true,
@@ -10,11 +12,16 @@
       "experimentalDecorators": true,
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
+      "skipLibCheck": true,
       "noUnusedLocals": true,
       "removeComments": true
     },
     "exclude": [
       "node_modules",
       "out"
+    ],
+    "include": [
+      "src",
+      "schema"
     ]
   }
