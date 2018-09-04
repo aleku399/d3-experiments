@@ -10,16 +10,18 @@ const barChart = () => {
     const yAxis = new Plottable.Axes.Numeric(yScale, 'left');
 
     const plot = new Plottable.Plots.Bar()
-    .x(d => d.x, xScale)
-    .y(d => d.y * 20, yScale)
-    .addDataset(new Plottable.Dataset(data))
-    .animated(true)
-    .renderTo('#barChart');
+        .x(d => d.x, xScale)
+        .y(d => d.y * 20, yScale)
+        .addDataset(new Plottable.Dataset(data))
+        // TODO: @aleku399 look into why this was causing bars not to show
+        // .animated(true)
+        .renderTo('#barChart');
 
-    // const chart = new Plottable.Components.Table([
-    //                     [yAxis, plot],
-    //                     [null, xAxis]
-    //                     ]);
-    // chart.renderTo('#barChart');
+    const chart = new Plottable.Components.Table([
+                        [yAxis, plot],
+                        [null, xAxis]
+                        ]);
+    chart.renderTo('#barChart');
 };
+
 barChart();
