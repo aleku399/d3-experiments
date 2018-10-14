@@ -7,14 +7,14 @@ h1,text {
 }
 #bar {
     padding-left: 20px;
-    border: 1px solid green;
+    border: 1px solid transparent;
     margin: 20px;
 }
 .bar {
     margin: 20px;
 }
 .scatter {
-    border: 1px solid green;
+    border: 1px solid transparent;
     height: 250px;
     width: 250px;
     padding: 40px;
@@ -33,7 +33,7 @@ h1,text {
     fill: teal;
 }
 .container {
-    border: 1px solid green;
+    border: 1px solid transparent;
     padding-left: 40px;
     padding-bottom: 30px;
     padding: 1px;
@@ -41,10 +41,44 @@ h1,text {
 .k {
     margin-right: 2px;
 }
+#group {
+    display: flex;
+    flex-direction: row;
+}
 #barChart {
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid transparent;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
+}
+#lineChart {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 300px;
+}
+#areaChart {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 300px;
+}
+#pieChart {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 300px;
+}
+#bubbleChart {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 300px; 
+}
+#rectangleChart {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 300px; 
+    margin-left: 20px; 
 }
