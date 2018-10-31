@@ -28,5 +28,6 @@ const barChart = () => {
     // ]);
     chart.renderTo('#barChart');
 };
+// TODO: see if app works
 
 export default barChart;
